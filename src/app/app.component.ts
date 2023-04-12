@@ -9,6 +9,10 @@ import { Component } from '@angular/core';
       <li><a routerLink="/pageB">PageB</a></li>
       <li><a routerLink="/pageC">PageC</a></li>
     </ul>
+
+    <app-component1></app-component1>
+
+    <hr>
     
     <router-outlet></router-outlet>
   `,

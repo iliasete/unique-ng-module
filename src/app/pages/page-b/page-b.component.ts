@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
     <p>
       page-b works!
     </p>
+
+    <app-component1></app-component1>
+
+    <app-component2></app-component2>
+
+    <app-component4></app-component4>
+
+    <app-component5></app-component5>
   `,
   styles: [
   ]
