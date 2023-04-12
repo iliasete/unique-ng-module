@@ -3,22 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SharedModule } from './components/shared.module';
 import { HomeComponent } from './pages/home/home.component';
-import { PageAComponent } from './pages/page-a/page-a.component';
-import { PageBComponent } from './pages/page-b/page-b.component';
-import { PageCComponent } from './pages/page-c/page-c.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    PageAComponent,
-    PageBComponent,
-    PageCComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
